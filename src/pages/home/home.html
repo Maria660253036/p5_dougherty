@@ -1,14 +1,21 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Pizza App
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-card-header>
+    App Homepage
+  </ion-card-header>
+  <ion-card-content>
+    Sign in to your account
+    <button ion-button round color="danger" (click)="goToLogin()">SIGN IN</button>
+  </ion-card-content>
+  <ion-card-content>
+    Register with us
+    <button ion-button round color="danger" (click)="goToRegister()">SIGN UP</button>
+  </ion-card-content>
 </ion-content>
